@@ -1,0 +1,47 @@
+body {
+    background-color: #1976D2;
+    color: #212121 ;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main {
+    background-color: aliceblue;
+    padding: 20px 40px 0px 40px;
+    border: solid white 1px;
+    border-radius: 10px;
+}
+.tasks{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+p {
+    padding-left: 10px;
+}
+.input-txt {
+    width: 100%;
+    padding: 0px;
+}
+.alert {
+    width: 180px;
+    background-color: #f44336;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    border-radius: 5px;
+    display: none;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+}
