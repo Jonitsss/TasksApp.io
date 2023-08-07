@@ -16,7 +16,9 @@ main {
     border-radius: 10px;
     box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
 }
-
+.user {
+    margin: 0 50px 0 50px;
+}
 .tasks{
     display: flex;
     align-items: center;
