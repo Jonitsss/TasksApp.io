@@ -70,22 +70,14 @@ p {
     cursor: pointer;
 }
 
-hr {
-    border: solid 1px white;
-}
+
 
 footer {
     background-color: #010409;
     font-size: 10px;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
-}
-
-@media only screen and (min-height: 800px) {
-   footer {
-    position: fixed;
-    bottom: 0;
-   }
+    border-top: solid white 1px;
 }
