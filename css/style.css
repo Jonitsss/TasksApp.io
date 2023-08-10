@@ -75,6 +75,7 @@ p {
     border-radius: 5px;
     font-size: 18px;
     text-align: center;
+    display: none;
 
 }
 .p-alert {

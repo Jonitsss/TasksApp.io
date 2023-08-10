@@ -8,6 +8,12 @@ function toggleTextDecoration(btnNumber) {
     const txt = document.getElementById('txt-' + btnNumber);
   
     btn.addEventListener('click', () => {
+      if (input.value.trim() == '') {
+      alertBox.style.display = 'block';
+      alerttxt.innerHTML = 'Por favor introduce tu Nombre antes de comenzar'
+      btn.checked = false;
+      return;
+      }
       if (txt.style.textDecoration === "line-through red") {
         txt.style.textDecoration = "none";
       } else {
