@@ -4,6 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
@@ -50,26 +53,33 @@ p {
     border: solid 1px black;
     border-radius: 25px;
 }
-.alert {
-    width: 180px;
-    background-color: #f44336;
-    color: white;
-    font-size: 18px;
-    position: absolute;
-    border-radius: 5px;
-    display: none;
-}
 
 .closebtn {
-    margin-left: 15px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
     color: white;
     font-weight: bold;
     float: right;
-    font-size: 22px;
+    font-size: 28px;
     line-height: 20px;
     cursor: pointer;
 }
 
+.alert {
+    background-color: #010409;
+    height: 150px;
+    width: 250px;
+    position: fixed;
+    top: 25%;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+
+}
+.p-alert {
+    padding-top: 20px;
+}
 
 
 footer {
